@@ -11,15 +11,15 @@ public class S3_2606 {
 
     public static void main(String[] args)throws IOException{
         Scanner sc = new Scanner(System.in);
-        n = sc.nextInt();
-        m = sc.nextInt();
+        n = sc.nextInt(); //7
+        m = sc.nextInt(); //6
 
         node = new int[n+1][n+1];
         visit = new boolean[n+1];
 
         int num1, num2;
 
-        for(int i=1;i<=m;i++){
+        for(int i=0;i<m;i++){
             num1 = sc.nextInt();
             num2 = sc.nextInt();
             node[num1][num2] = node[num2][num1] = 1;
