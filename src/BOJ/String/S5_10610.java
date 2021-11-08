@@ -7,9 +7,11 @@ public class S5_10610 {
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         List<Integer> list = new ArrayList<>();
+        List<Integer> list1 = new ArrayList<>();
         int sum = 0;
         for (int i=0;i<str.length();i++){
             list.add(str.charAt(i)-'0');
+
             sum += str.charAt(i)-'0';
         }
         Collections.sort(list);
