@@ -2,7 +2,7 @@ package BOJ.Math;
 
 import java.util.Scanner;
 
-public class B4_5532_ {
+public class B4_5532 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int L = sc.nextInt();
